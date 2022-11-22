@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Lalezar&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: #16161A;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.logo {
+    
+    height: 150px;
+    display: block;
+    margin-left: 40px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 40px;
+
+    
+}
+
+.menu{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-display: swap;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.conteudo{
+    
+    margin-bottom: 48px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+.conteudo-principal-urban{
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+    font-display: swap;
+    
+}
+ #conteudo-principal-every{
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 25px;
+    margin-bottom: 40px;
+    text-align: right;
+ }
+.conteudo-secundario{
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-display: swap;
+    color: white; 
+}
+
+
+
+.botao{
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .botao1{
+    display: none;
+  }
+  
+  button:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  button:active {
+    transform: translateY(-1px);
+  }
+
+
+#logot{
+    display: block;
+    margin: 0px auto;
+    height: 80px;
+    margin-top: 25px;
+}
+#direitos{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    font-display: swap;
+}
+
+.galeriain{
+  display: none;
+}
+
+.galeria {
+    border: 10px solid white;
+    margin-left: 150px;
+    width: 400px;
+    height: 600px;
+   overflow: hidden;
+    position: relative;
+  }
+
+  .galeria1000 {
+    display: none;
+  }
+
+  
+  .fotos {
+    position: absolute;
+    animation: animacao infinite 25s;
+    opacity: 0;
+  }
+  
+  @keyframes animacao {
+    25% {
+      opacity: 1;
+         transform: scale(1.1,1.1);
+    }
+   50% {
+      opacity: 0;
+         
+    }
+  }
+  
+  .fotos:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .fotos:nth-child(2) {
+    animation-delay: 5s;
+  }
+  
+  .fotos:nth-child(3) {
+    animation-delay: 10s;
+  }
+  
+  .fotos:nth-child(4) {
+    animation-delay: 15s;
+  }
+  .fotos:nth-child(5) {
+    animation-delay: 20s;
+  }
+
+  .galeria1000 {
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 1030px) {
+    .cabecalho {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      
+  }
+
+    .logo {
+    
+      height: 100px;
+      display: block;
+      margin-left: 15px;
+  } 
+
+  .cabecalho-menu {
+    display: flex;
+    gap: 15px;
+
+    
+}
+
+.menu{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-display: swap;
+    font-weight: bold;
+    color: white;
+
+
+}
+
+.conteudo{
+    
+  margin-bottom: 20px;
+}
+
+.conteudo-principal{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin-top: 30px;
+
+}
+
+.conteudo-principal-escrito{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 25px;
+  
+}
+
+.botao1{
+  display: none;
+}
+
+
+.conteudo-principal-urban{
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 35px;
+  color: white;
+  font-weight: 600;
+  font-display: swap;
+  
+}
+#conteudo-principal-every{
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-align: right;
+}
+.conteudo-secundario{
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-display: swap;
+  color: white; 
+}
+
+#logot{
+  display: block;
+  margin: 0px auto;
+  height: 80px;
+  margin-top: 238px;
+}
+#direitos{
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+  font-display: swap;
+}
+
+.galeria{
+  display: none;
+}
+
+.galeria1000 {
+  display: flex;
+  border: 10px solid white;
+  margin: 30px auto ;
+  width: 300px;
+  height: 400px;
+ overflow: hidden;
+  position: relative;
+}
+
+.fotos3 {
+  position: absolute;
+  animation: animacaoo infinite 25s;
+  opacity: 0;
+}
+
+@keyframes animacaoo {
+  25% {
+    opacity: 1;
+       transform: scale(1.1,1.1);
+  }
+ 50% {
+    opacity: 0;
+       
+  }
+}
+
+.fotos3:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.fotos3:nth-child(2) {
+  animation-delay: 5s;
+}
+
+.fotos3:nth-child(3) {
+  animation-delay: 10s;
+}
+
+.fotos3:nth-child(4) {
+  animation-delay: 15s;
+}
+
+.fotos3:nth-child(5) {
+  animation-delay: 20s;
+}
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 650px) {
+    .cabecalho {
+      display: block;
+
+      
+      
+  }
+
+    .logo {
+    
+      height: 70px;
+      display: flex;
+      margin:auto;
+      
+      
+      
+  } 
+
+  .cabecalho-menu {
+    display: flex;
+    gap: 1px;
+    margin: auto;
+  
+
+    
+}
+
+.menu{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-display: swap;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+
+
+}
+
+.conteudo{
+  
+  
+  margin: auto auto 15px auto;
+}
+
+.conteudo-principal{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-top: 40px;
+  align-items:baseline;
+
+
+}
+
+.conteudo-principal-escrito{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: auto;
+
+}
+
+.botao{
+  display: none;
+}
+
+.botao1{
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+.botao2 {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+
+
+.conteudo-principal-urban{
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+  font-display: swap;
+  
+}
+#conteudo-principal-every{
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-align: right;
+}
+.conteudo-secundario{
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-display: swap;
+  color: white; 
+}
+
+.galeria{
+  display: none;
+}
+
+.galeria1000 {
+  display: flex;
+  border: 10px solid white;
+  margin: auto ;
+  margin-top: 30px;
+  width: 300px;
+  height: 400px;
+ overflow: hidden;
+  position: relative;
+  align-items: center;
+}
+
+.fotos3 {
+  position: absolute;
+  animation: animacaoo infinite 25s;
+  opacity: 0;
+}
+
+@keyframes animacaoo {
+  25% {
+    opacity: 1;
+       transform: scale(1.1,1.1);
+  }
+ 50% {
+    opacity: 0;
+       
+  }
+}
+
+.fotos3:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.fotos3:nth-child(2) {
+  animation-delay: 5s;
+}
+
+.fotos3:nth-child(3) {
+  animation-delay: 10s;
+}
+
+.fotos3:nth-child(4) {
+  animation-delay: 15s;
+}
+
+.fotos3:nth-child(5) {
+  animation-delay: 20s;
+}
+
+
+#logot{
+  display: block;
+  margin: 0px auto;
+  height: 80px;
+  margin-top: 10px;
+}
+#direitos{
+  text-align: center;
+  color: white;
+  margin-top: 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+  font-display: swap;
+}
+  
+    
+  }

@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Lalezar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: #16161A;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.logo {
+    
+    height: 150px;
+    display: block;
+    margin-left: 40px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 40px;
+
+    
+}
+
+.menu{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-display: swap;
+    font-weight: bold;
+    color: white;
+
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    font-size: 25px;
+
+}
+
+
+.box{
+    width: 65px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0.6rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+.box:hover{
+    width: 200px;
+    background: #16161A;
+    border-radius: 35px;
+    color: #fff;
+}
+.box:nth-child(2):hover{
+    background: #16161A;
+}
+.box:nth-child(3):hover{
+    background: #16161A;
+}
+.box:nth-child(4):hover{
+    background: #16161A;
+}
+.navbar p{
+    transform: translate(60px);
+}
+.box .icon{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .4s ease;
+}
+.instagram{
+    background-color: #16161A;
+}
+.whatsapp{
+    background-color: #16161A;
+}
+.facebook{
+    background-color: #16161A;
+}
+.twitter{
+    background-color: #16161A;
+}
+.box:hover .icon{
+    background: #fff;
+    color: #16161A;
+}
+
+p{color: white;
+  padding-top: 9px;
+}
+
+
+
+#logot{
+    display: block;
+    margin: 0px auto;
+    height: 80px;
+    margin-top: 79px;
+}
+#direitos{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    font-display: swap;
+}
+
+
+
+@media screen and (max-width: 1030px) {
+    .cabecalho {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      
+  }
+
+    .logo {
+    
+      height: 100px;
+      display: block;
+      margin-left: 15px;
+  } 
+
+  .cabecalho-menu {
+    display: flex;
+    gap: 15px;
+
+    
+}
+
+.menu{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-display: swap;
+    font-weight: bold;
+    color: white;
+
+
+} 
+
+p{color: white;
+    padding-top: 9px;
+  }
+  #logot{
+    display: block;
+    margin: 0px auto;
+    height: 80px;
+    margin-top: 5px;
+}
+#direitos{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    font-display: swap;
+}
+}
+
+
+
+
+
+@media screen and (max-width: 650px) {
+    .cabecalho {
+      display: block;
+
+      
+      
+  }
+
+    .logo {
+    
+      height: 70px;
+      display: flex;
+      margin: auto;
+      
+      
+      
+  } 
+
+  .cabecalho-menu {
+    display: flex;
+    gap: 1px;
+    margin: auto;
+  
+
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    font-size: 25px;
+    padding-top: 110px;
+
+}
+
+
+.menu{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-display: swap;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+
+
+}
+
+p{color: white;
+    padding-top: 9px;
+  }
+
+#logot{ 
+    display: block;
+    margin: 0px auto;
+    height: 80px;
+    margin-top: 170px;
+}
+#direitos{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    font-display: swap;
+}}
